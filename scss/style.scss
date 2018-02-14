@@ -1,0 +1,142 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900');
+
+
+
+//$font-main: Cinzel;
+$font-family-awesome: FontAwesome;
+$required-text-color: #e60000;
+$font-weight-bold: bold;
+
+
+/* Navigation  */
+
+.navbar-light .navbar-nav .nav-link {
+
+ font-family: $font-family-awesome, sans-serif;
+ font-size: 18px;
+ margin: 13px;
+ font-weight: $font-weight-bold;
+}
+
+.navbar-text {
+ font-family: $font-family-awesome, sans-serif;
+ font-weight: $font-weight-bold;
+ font-size: 18px;
+ margin: 13px;
+}
+
+
+/* Main */
+
+/* Main > Home; Work with us; History */
+
+$border: 10px solid grey;
+$font-size-home: 19px;
+
+
+#viewHome {
+ font-family: $font-family-awesome, sans-serif;
+ border: $border;
+ font-size: $font-size-home;
+
+}
+
+#viewWorkForUs {
+
+ font-family: $font-family-awesome, sans-serif;
+ border: $border;
+ font-size: $font-size-home;
+
+}
+
+#viewHistory {
+
+ font-family: $font-family-awesome, sans-serif;
+ border: $border;
+ font-size: $font-size-home;
+}
+
+
+main > section {
+ display: none;
+ //padding: 20px 5px;
+}
+
+
+/* Forms */
+
+
+
+#requiredText, #requiredText2 {
+
+color: $required-text-color;
+font-weight: $font-weight-bold;
+}
+
+label {font-weight: $font-weight-bold}
+
+.form-control {  line-height: 0.25em;  }
+
+
+/* Login Form */
+
+@mixin fontAwesomeIconsInput() {
+
+ position: absolute;
+ top: 35px;
+left: 4px;  }
+
+ .form-group {
+
+ $color-focus: dodgerblue;
+
+ position: relative;
+
+ input[type=text] { padding-left: 33px; }
+
+ i {  @include fontAwesomeIconsInput;  }
+ input[type=text]:focus + i {  color: $color-focus;  }
+
+ input[type=password] {padding-left: 33px;}
+ input[type=password]:focus + i {  color: $color-focus;  }
+
+}
+
+
+/* Table */
+
+th, td {
+ font-weight: bold;
+ text-align: center;
+
+}
+
+/* Footer */
+
+footer {
+ text-align: center;
+ font-family: $font-family-awesome, sans-serif;
+
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  p {
+   font-weight:  $font-weight-bold;
+   padding: 13px 0 0 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

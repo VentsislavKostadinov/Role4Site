@@ -1,0 +1,70 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Cinzel:400,700,900");
+/* Navigation  */
+.navbar-light .navbar-nav .nav-link {
+    font-family: FontAwesome, sans-serif;
+    font-size: 18px;
+    margin: 13px;
+    font-weight: bold; }
+
+.navbar-text {
+    font-family: FontAwesome, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 13px; }
+
+/* Main */
+/* Main > Home; Work with us; History */
+#viewHome {
+    font-family: FontAwesome, sans-serif;
+    border: 61px solid grey;
+    font-size: 19px; }
+
+#viewWorkForUs {
+    font-family: FontAwesome, sans-serif;
+    border: 61px solid grey;
+    font-size: 19px; }
+
+#viewHistory {
+    font-family: FontAwesome, sans-serif;
+    border: 61px solid grey;
+    font-size: 19px; }
+
+main > section {
+    display: none; }
+
+/* Forms */
+#requiredText, #requiredText2 {
+    color: #e60000;
+    font-weight: bold; }
+
+label {
+    font-weight: bold; }
+
+.form-control {
+    line-height: 0.25em; }
+
+/* Login Form */
+.form-group {
+    position: relative; }
+.form-group input[type=text] {
+    padding-left: 33px; }
+.form-group i {
+    position: absolute;
+    top: 35px;
+    left: 4px; }
+.form-group input[type=text]:focus + i {
+    color: dodgerblue; }
+.form-group input[type=password] {
+    padding-left: 33px; }
+.form-group input[type=password]:focus + i {
+    color: dodgerblue; }
+
+/* Table */
+th, td {
+    font-weight: bold;
+    text-align: center; }
+
+/* Footer */
+
+/*# sourceMappingURL=style.css.map */
