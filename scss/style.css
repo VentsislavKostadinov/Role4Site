@@ -40,6 +40,10 @@ main > section {
 }
 
 /* Forms */
+form {
+  margin: auto;
+}
+
 #requiredText, #requiredText2 {
   color: #e60000;
   font-weight: bold;
@@ -54,10 +58,6 @@ label {
 }
 
 /* Login and Registers Form */
-form {
-  margin: auto;
-}
-
 .form-group {
   position: relative;
 }

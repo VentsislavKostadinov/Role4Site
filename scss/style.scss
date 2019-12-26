@@ -60,8 +60,8 @@ main > section {
  //padding: 20px 5px;
 }
 
-
 /* Forms */
+form { margin: auto;}
 
 #requiredText, #requiredText2 {
 
@@ -81,8 +81,6 @@ label {font-weight: $font-weight-bold}
  position: absolute;
  top: 35px;
  left: 4px;  }
-
-form { margin: auto;}
 
  .form-group {
 
