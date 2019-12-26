@@ -1,13 +1,10 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900');
 
-
-
 //$font-main: Cinzel;
 $font-family-awesome: FontAwesome;
 $required-text-color: #e60000;
 $font-weight-bold: bold;
-
 
 /* Navigation  */
 
@@ -66,8 +63,6 @@ main > section {
 
 /* Forms */
 
-
-
 #requiredText, #requiredText2 {
 
 color: $required-text-color;
@@ -79,13 +74,15 @@ label {font-weight: $font-weight-bold}
 .form-control {  line-height: 0.25em;  }
 
 
-/* Login Form */
+/* Login and Registers Form */
 
 @mixin fontAwesomeIconsInput() {
 
  position: absolute;
  top: 35px;
-left: 4px;  }
+ left: 4px;  }
+
+form {margin: auto;}
 
  .form-group {
 
